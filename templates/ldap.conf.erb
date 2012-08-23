@@ -1,0 +1,8 @@
+BASE            <%= @basedn %>
+URI             <%= @uri %>
+<% if @tls_enabled %>
+TLS_CACERT      <%= @tls_cacert_path %>
+TLS_REQCERT     <%= @tls_reqcert %>
+<% end %>
+TIMELIMIT       <%= @timelimit %>
+NETWORK_TIMEOUT <%= @network_timeout %>

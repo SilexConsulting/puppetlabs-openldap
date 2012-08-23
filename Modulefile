@@ -1,0 +1,7 @@
+name 'puppetlabs-openldap'
+version '0.0.1'
+source 'git://github.com/puppetlabs/puppetlabs-openldap'
+author 'puppetlabs'
+license 'Apache 2.0'
+summary 'Puppet openldap management'
+description ''
